@@ -1,0 +1,17 @@
+[package]
+edition      = "2021"
+name         = "geoprop"
+rust-version = "1.72.0"
+version      = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+name       = "geoprop"
+
+[dependencies]
+h3o       = "0.5.1"
+itm       = { git = "https://github.com/novalabsxyz/geoprop.git", branch = "main" }
+pyo3      = { version = "0.20", features = ["extension-module"] }
+rayon     = "1"
+terrain   = { git = "https://github.com/novalabsxyz/geoprop.git", branch = "main" }
+thiserror = "1"
