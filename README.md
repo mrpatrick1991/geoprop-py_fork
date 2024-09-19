@@ -4,6 +4,8 @@ This crate provides a Python API for select [geoprop] functionality.
 
 [geoprop]: https://github.com/novalabsxyz/geoprop
 
+copied with permission from the original author.
+
 ## Examples
 
 ### Tiles
